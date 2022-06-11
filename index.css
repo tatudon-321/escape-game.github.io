@@ -5,6 +5,11 @@ body {
   text-align:center; /*ページ全体を中央揃えにする*/
 }
 
+button {
+  width: 10em;
+  height:3em;
+}
+
 .font50 {
   font-size:50px;
 }
