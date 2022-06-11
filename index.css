@@ -3,9 +3,11 @@ body {
   /*font-family:cursive;*/
   width:100%; /*ページ全体の幅は100%と指定する*/	
   text-align:center; /*ページ全体を中央揃えにする*/
-  font-size:50px;
 }
 
+.font50 {
+  font-size:50px;
+}
 .contact-submit{
   background-color:#dee7ec;
   color:#889eab;
