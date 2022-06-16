@@ -3,13 +3,16 @@
     <script type="text/javascript">
       function handan(shadanki){
         if(shadanki == "かなぼう"){
-           document.getElementById("kekka").innerHTML = "<input type='button' value='正解！次へ進む' oneclick="location.href='https://google.com'">;"
+           document.getElementById("kekka").innerHTML = "<p id="sample">ボタン</p>";
         } else if(shadanki == "金棒") {
            document.getElementById("kekka").innerHTML = "正解！";
         } else {
            document.getElementById("kekka").innerHTML = "間違い！";
         }
       }
+      document.getElementById("sample").addEventListener("click", function () {
+  location.replace("https://google.com/");
+}, false);
     </script>
     <input type="text" id="num">
     <br>
