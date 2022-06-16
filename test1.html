@@ -2,16 +2,15 @@
   <body>
     <script type="text/javascript">
       function handan(shadanki){
-        if(shadanki == 1){
-           document.getElementById("kekka").innerHTML = "止まる";
-          }  else {
+        if(shadanki != 0){
+           document.getElementById("kekka").innerHTML = "こしあん";
+        } else {
            document.getElementById("kekka").innerHTML = "つぶあん";
-            }
         }
       }
     </script>
     <input type="text" id="num">
     <input type="button" value="判断" onclick="handan(num.value)">
-    <div id="kekka">ここに結果を表示します</div>
+    <div id="kekka">ここに判断結果を表示します</div>
   </body>
 </html>
