@@ -2,15 +2,17 @@
   <body>
     <script type="text/javascript">
       function handan(shadanki){
-        if(shadanki != 0){
-           document.getElementById("kekka").innerHTML = "こしあん";
+        if(shadanki == "かなぼう"){
+           document.getElementById("kekka").innerHTML = "正解";
+        } else if(shadanki == "金棒") {
+           document.getElementById("kekka").innerHTML = "正解";
         } else {
-           document.getElementById("kekka").innerHTML = "つぶあん";
+           document.getElementById("kekka").innerHTML = "間違い！";
         }
       }
     </script>
     <input type="text" id="num">
     <input type="button" value="判断" onclick="handan(num.value)">
-    <div id="kekka">ここに判断結果を表示します</div>
+    <div id="kekka">鬼に〜〜〜〜 〜〜〜〜に入る文字を答えよ</div>
   </body>
 </html>
