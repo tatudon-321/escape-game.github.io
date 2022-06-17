@@ -5,10 +5,6 @@ body {
   text-align:center; /*ページ全体を中央揃えにする*/
 }
 
-.futidori{
-  text-shadow:0 5px 5px black;
-}
-
 button {
   width: 10em;
   height:3em;
