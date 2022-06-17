@@ -8,11 +8,30 @@
 <img src="https://cdn.discordapp.com/attachments/975676347424866354/987234218033692692/3A2C6FB4-C398-43A5-B464-539C6662BD28.png">
 <!--<img src="" width="400" height="400"><br>-->
 <!--これがめものやつ-->
-<textarea></textarea>
+<html>
+  <body>
+    <script type="text/javascript">
+      function handan(answer){
+        if(answer == "ねぞう"){
+           document.getElementById("kekka").innerHTML = document.write("<a href='https://tatudon-321.github.io/escape-game.github.io/answer3'>" + mojiretu + "</a>");
+        } else if(answer == "寝相") {
+           document.getElementById("kekka").innerHTML = document.write("<a href='https://tatudon-321.github.io/escape-game.github.io/answer3'>" + mojiretu + "</a>");
+        } else if(answer == "ネゾウ") {
+           document.getElementById("kekka").innerHTML = document.write("<a href='https://tatudon-321.github.io/escape-game.github.io/answer3'>" + mojiretu + "</a>");
+        } else {
+           document.getElementById("kekka").innerHTML = "<h2>残念！間違いです</h2>";
+        }
+      }
+      let mojiretu = "<h1>正解です！この文字をタップして次のページへ進む</h1>"
+    </script>
+    <input type="text" id="num">
+    <br>
+    <input type="button" value="回答を送信する" onclick="handan(num.value)" style="font-size:30px;">
+    <div id="kekka"><a href="https://google.com"> </a></div>
+  </body>
+</html>
 <br>
 <!--<input class="contact-submit" type="submit" value="回答を送信する" style="font-size:30px;"><br>-->
-<input type="button" value="回答を送信する" onclick="location.href='https://tatudon-321.github.io/escape-game.github.io/answer3'" style="font-size:30px;">
-<br>
 <input type="button" value="最初のページに戻る" onclick="location.href='https://tatudon-321.github.io/escape-game.github.io/index0'" style="font-size:30px;">
 <style type="text/css">
 body {
