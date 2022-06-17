@@ -3,13 +3,22 @@
     <script type="text/javascript">
       function handan(shadanki){
         if(shadanki == "かなぼう"){
-           document.getElementById("kekka").innerHTML = "<input type='button' value='あn'";
+           document.getElementById("kekka").innerHTML = "sample();";
         } else if(shadanki == "金棒") {
            document.getElementById("kekka").innerHTML = "正解！";
         } else {
            document.getElementById("kekka").innerHTML = "間違い！";
         }
       }
+      
+      function sample() {
+    var text = '<input type="button" value="あああ">';
+    
+    console.log( text );
+}
+ 
+//functionを呼び出す
+sample();
     </script>
     <input type="text" id="num">
     <br>
