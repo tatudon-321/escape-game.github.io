@@ -1,3 +1,8 @@
+body {
+  background-image: url("かわいい犬.jpg");
+  background-size: cover;
+}
+
 .container {
 	position: relative;
 	width: 100%;
