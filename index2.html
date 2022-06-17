@@ -6,7 +6,26 @@
 <h2 class="font50">第二問</h2>
 <h2><span style="background-color:white">WKYM→わかやま<br>KTKN→かたかな<br>SKSM→？<br>？に当てはまる文字を四文字で答えよ</span></h2>
 <!--これがめものやつ-->
-<textarea></textarea>
+<html>
+  <body>
+    <script type="text/javascript">
+      function handan(answer){
+        if(answer == "さかさま"){
+           document.getElementById("kekka").innerHTML = document.write("<a href='https://tatudon-321.github.io/escape-game.github.io/answer2'>" + mojiretu + "</a>");
+        } else if(answer == "サカサマ") {
+           document.getElementById("kekka").innerHTML = document.write("<a href='https://tatudon-321.github.io/escape-game.github.io/answer2'>" + mojiretu + "</a>");
+        } else {
+           document.getElementById("kekka").innerHTML = "間違い！";
+        }
+      }
+      let mojiretu = "正解です！この文字をタップして次のページへ進む"
+    </script>
+    <input type="text" id="num">
+    <br>
+    <input type="button" value="回答を送信する" onclick="handan(num.value)">
+    <div id="kekka"><a href="https://google.com"> </a></div>
+  </body>
+</html>
 <br>
 <!--*<input class="contact-submit" type="submit" value="回答を送信する" style="font-size:30px;"><br>-->
 <input type="button" value="回答を送信する" onclick="location.href='https://tatudon-321.github.io/escape-game.github.io/answer2'" style="font-size:30px;">
