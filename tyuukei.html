@@ -1,1 +1,26 @@
-a
+<!DOCTYPE HTML>
+<title>次の部屋に進んでください</title>
+<head>
+<meta charset="utf-8">
+  <link rel="stylesheet" href="index.css"></head>
+<h2 class="font50">次の部屋に進んでください</h2>
+<h2 class="font50"><span style="background-color:white">進んだらその部屋の中で三桁の暗号を探し出してください。<br>見つけたらそれを下のスペースと部屋にある宝箱についているカギに入力してください</span></h2>
+<!--これがめものやつ-->
+<script type="text/javascript">
+      function handan(answer){
+        if(answer == "815"){
+           document.getElementById("kekka").innerHTML = document.write("<a href='https://tatudon-321.github.io/escape-game.github.io/answer1'>" + mojiretu + "</a>");
+        } else {
+           document.getElementById("kekka").innerHTML = "<h2>残念！間違いです</h2>";
+        }
+      }
+      let mojiretu = "<h1>正解です！この文字をタップして次のページへ進む</h1>"
+    </script>
+    <input type="text" id="num">
+    <br>
+ <input type="button" value="回答を送信する" onclick="handan(num.value)" style="font-size:30px;">
+    <div id="kekka"><a href="https://google.com"> </a></div>
+<!--<input class="contact-submit" type="submit" value="回答を送信する" style="font-size:30px;"><br> -->
+<br>
+<input type="button" value="最初のページに戻る" onclick="location.href='https://tatudon-321.github.io/escape-game.github.io/index0'" style="font-size:30px;">
+<style type="text/css">
