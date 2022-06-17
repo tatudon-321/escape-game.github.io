@@ -3,22 +3,16 @@
     <script type="text/javascript">
       function handan(shadanki){
         if(shadanki == "かなぼう"){
-           document.getElementById("kekka").innerHTML = sample();
+           document.getElementById("kekka").innerHTML = document.write("<a hreff='https://google.com'>" + mojiretu + "</a>");
         } else if(shadanki == "金棒") {
            document.getElementById("kekka").innerHTML = "正解！";
         } else {
            document.getElementById("kekka").innerHTML = "間違い！";
         }
       }
-      
-      function sample() {
-    var text = 'a~~';
-    
-    console.log( text );
-}
- 
-//functionを呼び出す
-sample();
+      let mojiretu = "あああ"
+document.write("<strong>こしあん</strong></br>")
+document.write("<a href='https://google.com'>" + mojiretu + "</a>")
     </script>
     <input type="text" id="num">
     <br>
