@@ -6,8 +6,20 @@
 <h2 class="font50">第一問</h2>
 <h2><span style="background-color:white">鬼に「〜〜〜〜」<br>〜〜〜〜に言葉を入れてことわざにしろ</span></h2>
 <!--これがめものやつ-->
-<textarea></textarea>
-<br>
+<script type="text/javascript">
+      function handan(shadanki){
+        if(shadanki == "かなぼう"){
+           document.getElementById("kekka").innerHTML = document.write("<a href='https://tatudon-321.github.io/escape-game.github.io/answer1'>" + mojiretu + "</a>");
+        } else if(shadanki == "金棒") {
+           document.getElementById("kekka").innerHTML = document.write("<a href='https://tatudon-321.github.io/escape-game.github.io/answer1'>" + mojiretu + "</a>");
+        } else {
+           document.getElementById("kekka").innerHTML = "間違い！";
+        }
+      }
+      let mojiretu = "正解です！この文字をタップして次のページへ進む"
+    </script>
+    <input type="text" id="num">
+    <br>
 <!--<input class="contact-submit" type="submit" value="回答を送信する" style="font-size:30px;"><br> -->
 <input type="button" value="回答を送信する" onclick="location.href='https://tatudon-321.github.io/escape-game.github.io/answer1'" style="font-size:30px;"> 
 <br>
